@@ -15,8 +15,8 @@ private:
 class NoCopyCstor {
 public:
     NoCopyCstor() = default;
-private:
-    NoCopyCstor(const NoCopyCstor &);
+// private:
+    // NoCopyCstor(const NoCopyCstor &) = delete;
 };
 
 int main() {
